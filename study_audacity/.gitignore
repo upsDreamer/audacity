@@ -1,0 +1,11 @@
+# 构建产物
+benchmarks/build/
+
+# 第三方源码（下载包与解压，来源 URL 见 benchmarks/README.md）
+benchmarks/vendor/
+
+# 基准运行生成物
+benchmarks/output/
+*.db
+*.db-wal
+*.db-shm
