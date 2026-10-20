@@ -1,0 +1,31 @@
+﻿=== writability (from confined shell) 2026-10-20T18:25:13.6782983+08:00 ===
+.scratch                       writable=False
+docs                           writable=False
+study_audacity                 writable=False
+study_audacity\docs            writable=False
+study_audacity\benchmarks      writable=False
+au3                            writable=False
+=== icacls .scratch ===
+D:\Work\project\audacity\.scratch BUILTIN\Administrators:(I)(F)
+                                  BUILTIN\Administrators:(I)(OI)(CI)(IO)(F)
+                                  NT AUTHORITY\SYSTEM:(I)(F)
+                                  NT AUTHORITY\SYSTEM:(I)(OI)(CI)(IO)(F)
+                                  NT AUTHORITY\Authenticated Users:(I)(M)
+                                  NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(IO)(M)
+                                  BUILTIN\Users:(I)(RX)
+                                  BUILTIN\Users:(I)(OI)(CI)(IO)(GR,GE)
+
+Successfully processed 1 files; Failed processing 0 files
+=== icacls study_audacity ===
+D:\Work\project\audacity\study_audacity BUILTIN\Administrators:(I)(F)
+                                        BUILTIN\Administrators:(I)(OI)(CI)(IO)(F)
+                                        NT AUTHORITY\SYSTEM:(I)(F)
+                                        NT AUTHORITY\SYSTEM:(I)(OI)(CI)(IO)(F)
+                                        NT AUTHORITY\Authenticated Users:(I)(M)
+                                        NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(IO)(M)
+                                        BUILTIN\Users:(I)(RX)
+                                        BUILTIN\Users:(I)(OI)(CI)(IO)(GR,GE)
+
+Successfully processed 1 files; Failed processing 0 files
+=== whoami/lang ===
+LAPTOP-MHVJ999R\upstr lang=FullLanguage
